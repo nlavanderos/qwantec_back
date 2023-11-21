@@ -1,0 +1,18 @@
+{
+  "applications": ["myApp"],
+  "changelogDate": "20231121073412",
+  "entityTableName": "pokedex",
+  "fields": [],
+  "name": "Pokedex",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "pokemon",
+      "otherEntityRelationshipName": "pokemon",
+      "relationshipName": "pokemon",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

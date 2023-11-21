@@ -1,0 +1,32 @@
+
+application {
+  config {
+    baseName myApp
+    applicationType monolith
+    packageName com.mycompany.myapp
+    authenticationType jwt
+    prodDatabaseType postgresql
+    clientFramework vue
+  }
+  entities *
+}
+
+
+entity Pokedex {
+	info Pokemon
+}
+
+entity Pokemon {
+  nombre String required maxlength(25),
+  tipo String required maxlength(15),
+  elemento String required maxlength(15),
+  region String required maxlength(25)
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Pokedex to Pokemon{pokemon}
+}
+
+// Set pagination options
+paginate Pokedex with pagination

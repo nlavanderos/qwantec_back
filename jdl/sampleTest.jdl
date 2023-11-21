@@ -1,0 +1,20 @@
+
+entity Pokedex {
+	info Pokemon
+}
+
+entity Pokemon {
+	nombre String
+	tipo String
+	elemento String
+	region String
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Pokedex to Pokemon{pokemon}
+}
+
+// Set pagination options
+paginate Pokedex with pagination
+

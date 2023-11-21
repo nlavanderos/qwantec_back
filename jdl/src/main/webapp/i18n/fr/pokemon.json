@@ -1,0 +1,28 @@
+{
+  "myApp": {
+    "pokemon": {
+      "home": {
+        "title": "Pokemon",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Pokemon",
+        "createOrEditLabel": "Créer ou éditer un Pokemon",
+        "notFound": "Aucun Pokemon trouvé"
+      },
+      "created": "Un nouveau Pokemon a été créé avec l'identifiant { param }",
+      "updated": "Le Pokemon avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Pokemon avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Pokemon { id } ?"
+      },
+      "detail": {
+        "title": "Pokemon"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "tipo": "Tipo",
+      "elemento": "Elemento",
+      "region": "Region",
+      "pokemon": "Pokemon"
+    }
+  }
+}

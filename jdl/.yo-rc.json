@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "myApp",
+    "clientFramework": "vue",
+    "creationTimestamp": 1700552323319,
+    "devServerPort": 9060,
+    "entities": ["Pokemon", "Pokedex"],
+    "jhipsterVersion": "8.0.0",
+    "jwtSecretKey": "OTZlNzdjZjZmMmRkYjA2ZDJiMWUyOGZmYjI3MTYzMTg3Y2FlN2M3MzBjNzYxNzcxMGU3Mjk4NmFkNDk0M2MwMTA1NmMyOTg5ODhmMGVkYTlkNWNmN2VmNWQ1OTE1M2M2NzNiYzUwYjM3NzU3YmZmZGMyNGQyYWI1ZWE3ZTMxN2U=",
+    "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1700552052000,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageFolder": "com/mycompany/myapp",
+    "packageName": "com.mycompany.myapp",
+    "prodDatabaseType": "postgresql",
+    "skipCommitHook": true
+  }
+}
