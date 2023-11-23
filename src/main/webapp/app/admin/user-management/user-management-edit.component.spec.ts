@@ -93,8 +93,8 @@ describe('UserManagementEdit Component', () => {
       // GIVEN
       axiosStub.put.resolves({
         headers: {
-          'x-qwantecapp-alert': '',
-          'x-qwantecapp-params': '',
+          'x-myapp-alert': '',
+          'x-myapp-params': '',
         },
       });
       axiosStub.get.withArgs('api/admin/users/' + 123).resolves({
@@ -123,8 +123,8 @@ describe('UserManagementEdit Component', () => {
       // GIVEN
       axiosStub.post.resolves({
         headers: {
-          'x-qwantecapp-alert': '',
-          'x-qwantecapp-params': '',
+          'x-myapp-alert': '',
+          'x-myapp-params': '',
         },
       });
       axiosStub.get.resolves({});

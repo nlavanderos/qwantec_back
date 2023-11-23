@@ -1,8 +1,8 @@
 {
-  "name": "qwantec",
+  "name": "my-app",
   "version": "0.0.0",
   "private": true,
-  "description": "Description for Qwantec",
+  "description": "Description for My App",
   "license": "UNLICENSED",
   "scripts": {
     "app:start": "./mvnw",

@@ -114,8 +114,8 @@ export default defineComponent({
         .remove(this.removeId)
         .then(res => {
           this.alertService.showInfo(
-            this.t$(res.headers['x-qwantecapp-alert'].toString(), {
-              param: decodeURIComponent(res.headers['x-qwantecapp-params'].replace(/\+/g, ' ')),
+            this.t$(res.headers['x-myapp-alert'].toString(), {
+              param: decodeURIComponent(res.headers['x-myapp-params'].replace(/\+/g, ' ')),
             }),
             { variant: 'danger' },
           );

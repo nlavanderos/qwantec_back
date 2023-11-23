@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mycompany.myapp</groupId>
-    <artifactId>qwantec</artifactId>
+    <artifactId>my-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Qwantec</name>
-    <description>Description for Qwantec</description>
+    <name>My App</name>
+    <description>Description for My App</description>
 
     <properties>
         <!--
@@ -24,7 +24,7 @@
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <start-class>com.mycompany.myapp.QwantecApp</start-class>
+        <start-class>com.mycompany.myapp.MyApp</start-class>
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx1G</argLine>
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
         <run.addResources>false</run.addResources>
@@ -388,7 +388,7 @@
                             </platforms>
                         </from>
                         <to>
-                            <image>qwantec:latest</image>
+                            <image>myapp:latest</image>
                         </to>
                         <container>
                             <entrypoint>
@@ -813,9 +813,9 @@
                 <!-- default Spring profiles -->
                 <spring.profiles.active>dev${profile.tls}${profile.no-liquibase}</spring.profiles.active>
                 <profile.test>testdev</profile.test>
-                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/qwantec</liquibase-plugin.url>
-                <liquibase-plugin.username>qwantec</liquibase-plugin.username>
-                <liquibase-plugin.password/>
+                <liquibase-plugin.url>jdbc:postgresql://localhost:5433/qwa</liquibase-plugin.url>
+                <liquibase-plugin.username>postgres</liquibase-plugin.username>
+                <liquibase-plugin.password>root</liquibase-plugin.password>
             </properties>
             <dependencies>
                 <dependency>
@@ -921,8 +921,8 @@
                 <!-- default Spring profiles -->
                 <spring.profiles.active>prod${profile.api-docs}${profile.tls}${profile.e2e}${profile.no-liquibase}</spring.profiles.active>
                 <profile.test>testprod</profile.test>
-                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/qwantec</liquibase-plugin.url>
-                <liquibase-plugin.username>qwantec</liquibase-plugin.username>
+                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/myApp</liquibase-plugin.url>
+                <liquibase-plugin.username>myApp</liquibase-plugin.username>
                 <liquibase-plugin.password/>
             </properties>
             <build>

@@ -115,8 +115,8 @@ export default defineComponent({
     },
 
     getToastMessageFromHeader(res: any): string {
-      return this.t$(res.headers['x-qwantecapp-alert'], {
-        param: decodeURIComponent(res.headers['x-qwantecapp-params'].replace(/\+/g, ' ')),
+      return this.t$(res.headers['x-myapp-alert'], {
+        param: decodeURIComponent(res.headers['x-myapp-params'].replace(/\+/g, ' ')),
       }).toString();
     },
   },

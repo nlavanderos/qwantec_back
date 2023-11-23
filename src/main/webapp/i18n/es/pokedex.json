@@ -1,0 +1,24 @@
+{
+  "myApp": {
+    "pokedex": {
+      "home": {
+        "title": "Pokedexes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Pokedex",
+        "createOrEditLabel": "Crear o editar Pokedex",
+        "notFound": "Ningún Pokedexes encontrado"
+      },
+      "created": "Un nuevo Pokedex ha sido creado con el identificador { param }",
+      "updated": "Un Pokedex ha sido actualizado con el identificador { param }",
+      "deleted": "Un Pokedex ha sido eliminado con el identificador { param }",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Pokedex { id }?"
+      },
+      "detail": {
+        "title": "Pokedex"
+      },
+      "id": "ID",
+      "pokemon": "Pokemon"
+    }
+  }
+}

@@ -56,6 +56,6 @@ export default class ConfigurationService {
       }
     }
     // by default, use the default ApplicationContext Id
-    return res['contexts']['qwantec']['beans'];
+    return res['contexts']['myApp']['beans'];
   }
 }

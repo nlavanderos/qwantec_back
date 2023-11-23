@@ -85,8 +85,8 @@ describe('UserManagement Component', () => {
       // GIVEN
       axiosStub.delete.resolves({
         headers: {
-          'x-qwantecapp-alert': '',
-          'x-qwantecapp-params': '',
+          'x-myapp-alert': '',
+          'x-myapp-params': '',
         },
       });
 
